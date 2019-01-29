@@ -1,0 +1,48 @@
+{
+  "name": "cache-driver-cache",
+  "version": "1.0.0",
+  "description": "A cache package adapter for cache-driver",
+  "keywords": [
+    "cache",
+    "driver",
+    "storage",
+    "caching",
+    "find",
+    "get",
+    "save",
+    "file cache",
+    "file",
+    "json cache",
+    "simple cache"
+  ],
+  "main": "lib/Cache.js",
+  "types": "lib/Cache.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/tsc",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewSH/CacheDriver-Cache.git"
+  },
+  "author": "matthewh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewSH/CacheDriver-Cache/issues"
+  },
+  "homepage": "https://github.com/MatthewSH/CacheDriver-Cache#readme",
+  "files": [
+    "/lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.12.19",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "cache": "^2.1.0",
+    "cache-driver": "^1.0.1"
+  }
+}
