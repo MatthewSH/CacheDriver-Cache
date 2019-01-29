@@ -15,8 +15,8 @@
     "json cache",
     "simple cache"
   ],
-  "main": "lib/Cache.js",
-  "types": "lib/Cache.d.ts",
+  "main": "lib/CacheAdapter.js",
+  "types": "lib/CacheAdapter.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "./node_modules/.bin/tsc",
